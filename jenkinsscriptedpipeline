@@ -15,7 +15,7 @@ node('built-in')
 stage('Continuos Testing')
 {
     git 'https://github.com/intelliqittrainings/FunctionalTesting.git'
-    sh 'java -jar /home/ubuntu/.jenkins/workspace/Scriptedpipeline/testing.jar'
+    sh 'java -jar /home/ubuntu/.jenkins/workspace/Scriptedpipelinedemo/testing.jar'
 }
 stage('Continuos Delivery')
 {
